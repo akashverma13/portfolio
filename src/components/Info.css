@@ -1,0 +1,373 @@
+html, body, p {
+    margin: 0;
+    padding: 0;
+}
+
+.infopage {
+    position: relative;
+    margin:0;
+    padding:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #154FA6;
+    background-image: url("./images/infovector.svg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#small-logo {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 12%;
+    top: 2.7%;
+    width: 17vw;
+}
+
+.infopage #dletter, #pletter, #iletter {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.infopage #dletter:hover, .infopage #pletter:hover, #small-logo:hover{
+    opacity: 30%;
+}
+
+.infopage #dletter {
+    position: absolute;
+    transform: translate(50%, 0%);
+    display: inline-block;
+    right: 40vw;
+    width: 11.2vw;
+    opacity: 50%;
+}
+
+.infopage #pletter {
+    position: absolute;
+    transform: translate(50%, 0%);
+    display: inline-block;
+    right: 23vw;
+    width: 10vw;
+    opacity: 50%;
+}
+
+.infopage #iletter {
+    position: absolute;
+    transform: translate(50%, 0%);
+    display: inline-block;
+    right: 10vw;
+    width: 5.9vw;
+}
+
+#text {
+    position: relative;
+    top: 20vw;
+}
+
+#intro {
+    position: relative;
+    font-size: 5vw;
+    color: #DEDFF5;
+    font-weight: bold;
+}
+
+#exp {
+    position: relative;
+    margin: 2px;
+    font-size: 3.5vw;
+    color: #DEDFF5;
+}
+
+#social {
+    filter: invert(1);
+}
+
+#github {
+    position: absolute;
+    width: 10vw;
+    transform: translate(-50%, 0%);
+    left: 30%;
+    top: 90vw;
+}
+
+#linkedin {
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 70%;
+    width: 10vw;
+    top: 90vw;
+}
+
+@media only screen and (min-width: 800px) {
+    html, body, p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .infopage {
+        position: relative;
+        margin:0;
+        padding:0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #154FA6;
+        background-image: url("./images/infovector.svg");
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+    }
+
+    #small-logo {
+        position: absolute;
+        transform: translate(-50%, 0%);
+        left: 5%;
+        top: 1.5%;
+        width: 8vw;
+    }
+
+    .infopage #dletter, #pletter, #iletter {
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .infopage #dletter {
+        display: none;
+        position: absolute;
+        transform: translate(50%, 0%);
+        right: 50%;
+        opacity: 100%;
+    }
+
+    .infopage #pletter {
+        display: none;
+        opacity: 100%;
+        position: absolute;
+        transform: translate(50%, 0%);
+        right: 30%;
+    }
+
+    .infopage #iletter {
+        display: none;
+        opacity: 50%;
+        position: absolute;
+        transform: translate(50%, 0%);
+        right: 10%;
+    }
+
+    #text {
+        position: relative;
+        top: 10vw;
+    }
+
+    #intro {
+        position: relative;
+        font-size: 4vw;
+        color: #DEDFF5;
+        font-weight: bold;
+    }
+
+    #exp {
+        position: relative;
+        margin: 1vw;
+        font-size: 1.5vw;
+        color: #DEDFF5;
+    }
+
+    #social {
+        filter: invert(1);
+    }
+
+    #github {
+        position: absolute;
+        width: 8vw;
+        transform: translate(-50%, 0%);
+        left: 30%;
+        top: 15vw;
+    }
+
+    #linkedin {
+        position: absolute;
+        transform: translate(-50%, 0%);
+        left: 70%;
+        width: 8vw;
+        top: 15vw;
+    }
+
+    .infopage #links {
+        position: absolute;
+        transform: translate(50%, 0%);
+        right: 35%;
+        cursor: pointer;
+    }
+
+    .infopage #projectslink:hover, .infopage #designslink:hover {
+        opacity: 30%;
+    }
+
+    #designslink {
+        display: inline-block;
+        color: #FCFFEB;
+        font-weight: bold;
+        font-size: 4vw;
+        padding-left: 5vw;
+        opacity: 50%;
+    }
+
+    #projectslink {
+        display: inline-block;
+        color: #FCFFEB;
+        font-weight: bold;
+        font-size: 4vw;
+        padding-left: 5vw;
+        opacity: 50%;
+    }
+
+    #infolink {
+        display: inline-block;
+        color: #FCFFEB;
+        font-weight: bold;
+        font-size: 4vw;
+        padding-left: 5vw;
+        opacity: 100%;
+    }
+}
+
+
+
+@media only screen and (max-height: 500px) {
+    html, body, p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .infopage {
+        position: relative;
+        margin:0;
+        padding:0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #154FA6;
+        background-image: url("./images/infovector.svg");
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+    }
+
+    #small-logo {
+        position: absolute;
+        transform: translate(-50%, 0%);
+        left: 5%;
+        top: 1.5%;
+        width: 8vw;
+    }
+
+    .infopage #dletter, #pletter, #iletter {
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .infopage #dletter {
+        display: none;
+        position: absolute;
+        transform: translate(50%, 0%);
+        right: 50%;
+        opacity: 100%;
+    }
+
+    .infopage #pletter {
+        display: none;
+        opacity: 100%;
+        position: absolute;
+        transform: translate(50%, 0%);
+        right: 30%;
+    }
+
+    .infopage #iletter {
+        display: none;
+        opacity: 50%;
+        position: absolute;
+        transform: translate(50%, 0%);
+        right: 10%;
+    }
+
+    #text {
+        position: relative;
+        top: 10vw;
+    }
+
+    #intro {
+        position: relative;
+        font-size: 4vw;
+        color: #DEDFF5;
+        font-weight: bold;
+    }
+
+    #exp {
+        position: relative;
+        margin: 1vw;
+        font-size: 1.5vw;
+        color: #DEDFF5;
+    }
+
+    #social {
+        filter: invert(1);
+    }
+
+    #github {
+        position: absolute;
+        width: 8vw;
+        transform: translate(-50%, 0%);
+        left: 30%;
+        top: 50vh;
+    }
+
+    #linkedin {
+        position: absolute;
+        transform: translate(-50%, 0%);
+        left: 70%;
+        width: 8vw;
+        top: 50vh;
+    }
+
+    .infopage #links {
+        position: absolute;
+        transform: translate(50%, 0%);
+        right: 35%;
+        cursor: pointer;
+    }
+
+    .infopage #projectslink:hover, .infopage #designslink:hover {
+        opacity: 30%;
+    }
+
+    #designslink {
+        display: inline-block;
+        color: #FCFFEB;
+        font-weight: bold;
+        font-size: 4vw;
+        padding-left: 5vw;
+        opacity: 50%;
+    }
+
+    #projectslink {
+        display: inline-block;
+        color: #FCFFEB;
+        font-weight: bold;
+        font-size: 4vw;
+        padding-left: 5vw;
+        opacity: 50%;
+    }
+
+    #infolink {
+        display: inline-block;
+        color: #FCFFEB;
+        font-weight: bold;
+        font-size: 4vw;
+        padding-left: 5vw;
+        opacity: 100%;
+    }
+}
+

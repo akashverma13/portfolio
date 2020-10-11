@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+.homepage {
+    position: relative;
+    margin:0;
+    padding:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #474350;
+    background-image: url("./images/homevector.svg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#biglogo {
+    position: absolute;
+    transform: translate(-50%,0%);
+    left: 50%;
+    top: 3%;
+    width: 25vh;
+    display: block;
+}
+
+#hometext {
+    color: #FCFFEB;
+    font-weight: bold;
+    font-size: 2.5vh;
+    position: absolute;
+    display: block;
+    transform: translate(-50%,0%);
+    left: 50%;
+    top: 35%;
+}
+
+#homebutton {
+    position: absolute;
+    display: block;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    bottom: 15%;
+    width: 7vh;
+    cursor: pointer;
+}
+
+#homebutton:hover {
+    opacity: 50%;
+}
+
+@media only screen and (min-width: 600px) {
+    .homepage {
+        position: relative;
+        margin:0;
+        padding:0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #474350;
+        background-image: url("./images/homevector.svg");
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+    }
+
+    #biglogo {
+        position: absolute;
+        transform: translate(-50%,0%);
+        left: 50%;
+        top: 3%;
+        width: 40vh;
+        display: block;
+    }
+
+    #hometext {
+        color: #FCFFEB;
+        font-weight: bold;
+        font-size: 2.5vh;
+        position: absolute;
+        display: block;
+        transform: translate(-50%,0%);
+        left: 50%;
+        top: 45%;
+    }
+
+    #homebutton {
+        position: absolute;
+        display: block;
+        transform: translate(-50%, 0%);
+        left: 50%;
+        bottom: 5%;
+        width: 10vh;
+        cursor: pointer;
+    }
+
+    #homebutton:hover {
+        opacity: 50%;
+    }
+}
