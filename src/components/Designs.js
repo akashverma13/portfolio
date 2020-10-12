@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import './Designs.css'
 import smallLogo from './images/small-logo.svg'
 import dletter from './images/dletter.svg'

@@ -6,7 +6,7 @@ import pletter from './images/pletter.svg'
 import iletter from './images/iletter.svg'
 import github from './images/github.svg'
 import linkedin from './images/linkedin.svg'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Home from './Home.js';
 import Designs from './Designs.js'
 import Projects from './Projects.js'

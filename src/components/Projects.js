@@ -5,7 +5,7 @@ import dletter from './images/dletter.svg'
 import pletter from './images/pletter.svg'
 import iletter from './images/iletter.svg'
 import circle from './images/circle.svg'
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Home from './Home.js';
 import Designs from './Designs.js'
 import Info from './Info.js'

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home.js';
 import Designs from './components/Designs.js'
@@ -8,7 +8,7 @@ import Info from './components/Info.js'
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <div>
         <Switch>
           <Route exact path='/' component={Home}></Route>
