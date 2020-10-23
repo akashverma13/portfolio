@@ -3,7 +3,16 @@
 html, body {
     margin:0;
     padding:0;
+    max-width :100%;
 }
+
+.switch-wrapper {
+    position: relative;
+  }
+
+  .switch-wrapper > div {
+    position: absolute;
+  }
 
 .homepage {
     position: relative;
@@ -46,10 +55,13 @@ html, body {
     bottom: 15%;
     width: 7vh;
     cursor: pointer;
+    outline : none;
+    border : 0;
 }
 
+
 #homebutton:hover {
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 @media only screen and (min-width: 600px) {
@@ -64,6 +76,7 @@ html, body {
         background-size: cover;
         background-attachment: fixed;
         text-align: center;
+        transition: background-color 1s linear;
     }
 
     #biglogo {
@@ -74,6 +87,14 @@ html, body {
         width: 40vh;
         display: block;
     }
+
+    .switch-wrapper {
+        position: relative;
+      }
+
+      .switch-wrapper > div {
+        position: absolute;
+      }
 
     #hometext {
         color: #FCFFEB;
@@ -97,6 +118,7 @@ html, body {
     }
 
     #homebutton:hover {
-        opacity: 50%;
+        opacity: 0.5;
+        background-color: transparent;
     }
 }

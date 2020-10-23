@@ -1,10 +1,12 @@
 html, body, p {
     margin: 0;
     padding: 0;
+    max-width :100%;
 }
 
 .infopage {
     position: relative;
+    max-width :100%;
     margin:0;
     padding:0;
     width: 100vw;
@@ -31,7 +33,7 @@ html, body, p {
 }
 
 .infopage #dletter:hover, .infopage #pletter:hover, #small-logo:hover{
-    opacity: 30%;
+    opacity: 0.3;
 }
 
 .infopage #dletter {
@@ -40,7 +42,11 @@ html, body, p {
     display: inline-block;
     right: 40vw;
     width: 11.2vw;
-    opacity: 50%;
+    opacity: 0.5;
+}
+
+#github:hover, #linkedin:hover {
+    opacity: 0.5;
 }
 
 .infopage #pletter {
@@ -49,7 +55,7 @@ html, body, p {
     display: inline-block;
     right: 23vw;
     width: 10vw;
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 .infopage #iletter {
@@ -137,12 +143,12 @@ html, body, p {
         position: absolute;
         transform: translate(50%, 0%);
         right: 50%;
-        opacity: 100%;
+        opacity: 1;
     }
 
     .infopage #pletter {
         display: none;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         transform: translate(50%, 0%);
         right: 30%;
@@ -150,7 +156,7 @@ html, body, p {
 
     .infopage #iletter {
         display: none;
-        opacity: 50%;
+        opacity: 0.5;
         position: absolute;
         transform: translate(50%, 0%);
         right: 10%;
@@ -187,6 +193,10 @@ html, body, p {
         top: 15vw;
     }
 
+    #github:hover, #linkedin:hover {
+        opacity: 0.5;
+    }
+
     #linkedin {
         position: absolute;
         transform: translate(-50%, 0%);
@@ -203,7 +213,7 @@ html, body, p {
     }
 
     .infopage #projectslink:hover, .infopage #designslink:hover {
-        opacity: 30%;
+        opacity: 0.3;
     }
 
     #designslink {
@@ -212,7 +222,7 @@ html, body, p {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 50%;
+        opacity: 0.5;
     }
 
     #projectslink {
@@ -221,7 +231,7 @@ html, body, p {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 50%;
+        opacity: 0.5;
     }
 
     #infolink {
@@ -230,7 +240,7 @@ html, body, p {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 100%;
+        opacity: 1;
     }
 }
 
@@ -255,6 +265,10 @@ html, body, p {
         text-align: center;
     }
 
+    #github:hover, #linkedin:hover {
+        opacity: 0.5;
+    }
+
     #small-logo {
         position: absolute;
         transform: translate(-50%, 0%);
@@ -274,12 +288,12 @@ html, body, p {
         position: absolute;
         transform: translate(50%, 0%);
         right: 50%;
-        opacity: 100%;
+        opacity: 1;
     }
 
     .infopage #pletter {
         display: none;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         transform: translate(50%, 0%);
         right: 30%;
@@ -287,7 +301,7 @@ html, body, p {
 
     .infopage #iletter {
         display: none;
-        opacity: 50%;
+        opacity: 0.5;
         position: absolute;
         transform: translate(50%, 0%);
         right: 10%;
@@ -340,7 +354,7 @@ html, body, p {
     }
 
     .infopage #projectslink:hover, .infopage #designslink:hover {
-        opacity: 30%;
+        opacity: 0.3;
     }
 
     #designslink {
@@ -349,7 +363,7 @@ html, body, p {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 50%;
+        opacity: 0.5;
     }
 
     #projectslink {
@@ -358,7 +372,7 @@ html, body, p {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 50%;
+        opacity: 0.5;
     }
 
     #infolink {
@@ -367,7 +381,7 @@ html, body, p {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 100%;
+        opacity: 1;
     }
 }
 

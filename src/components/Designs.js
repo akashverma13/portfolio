@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import './Designs.css'
 import smallLogo from './images/small-logo.svg'
 import dletter from './images/dletter.svg'
@@ -9,7 +9,6 @@ import leftarrow from './images/arrow-left.svg'
 import Home from './Home.js';
 import Projects from './Projects.js'
 import Info from './Info.js'
-import firstimage from './images/skltn.svg'
 
 var images = [];
 
@@ -56,25 +55,25 @@ function Designs() {
                 <Route exact={true} path='/projects' component={Projects}></Route>
                 <Route exact={true} path='/info' component={Info}></Route>
                 <div className="designpage">
-                    <nav id="navbar">
-                        <Link to="/"><img id="small-logo" src={smallLogo} alt="" /></Link>
+                    <nav id="navbar" class="fadeIn first">
+                        <Link to="/"><img draggable="false" id="small-logo" src={smallLogo} alt="" /></Link>
                         <div id="links">
-                            <img src={dletter} alt="" id="dletter" />
+                            <img src={dletter} draggable="false" alt="" id="dletter" />
                             <p id="designslink">Designs</p>
-                            <Link to="/projects"><img src={pletter} alt="" id="pletter" /></Link>
+                            <Link to="/projects"><img draggable="false" src={pletter} alt="" id="pletter" /></Link>
                             <Link to="/projects"><p id="projectslink">Projects</p></Link>
-                            <Link to="/info"><img src={iletter} alt="" id="iletter" /></Link>
+                            <Link to="/info"><img draggable="false" src={iletter} alt="" id="iletter" /></Link>
                             <Link to="/info"><p id="infolink">Info</p></Link>
                         </div>
                     </nav>
-                    <div id="slideshow">
-                        <img src={leftarrow} alt="" onClick={(e) => nextImage(e)} id="arrow-right" />
-                        <img src={leftarrow} alt="" onClick={(e) => previousImage(e)} id="arrow-left" />
+                    <div id="slideshow" class="fadeIn second">
+                        <img draggable="false" src={leftarrow} alt="" onClick={(e) => nextImage(e)} id="arrow-right" />
+                        <img draggable="false" src={leftarrow} alt="" onClick={(e) => previousImage(e)} id="arrow-left" />
 
-                        <img src={firstimage} className="1" id="image" alt="" />
+                        <img draggable="false" src="/portfolio/static/media/1.0b001be8.svg" className="0" id="image" alt="" />
 
                         <div id="spacer"></div>
-                        <span id="designstext">These logos/designs were mostly made
+                        <span id="designstext" class="fadeIn third">These logos/designs were mostly made
                                             with either Figma or Adobe Illustrator.</span>
                     </div>
                 </div>

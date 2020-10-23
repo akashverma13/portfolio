@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import './Home.css'
 import biglogo from './images/biglogo.svg'
 import button from './images/button.svg'
@@ -15,13 +15,15 @@ function Home() {
                 <Route path='/projects' exact component={Projects}></Route>
                 <Route path='/info' exact component={Info}></Route>
                 <div className="homepage">
-                    <img id="biglogo" src={biglogo} alt="" />
-                    <span id="hometext">
+                    <img id="biglogo" draggable="false" src={biglogo} class="fadeIn first" alt="" />
+                    <span id="hometext" class="fadeIn second">
                         Welcome to my portfolio.<br />
                     I'm a 20-year-old student currently studying<br />
                     in Austria for his bachelor's degree in Creative Computing.
                 </span>
-                    <Link to="/designs"><img id="homebutton" src={button} alt="" /></Link>
+                <div class="fadeIn third">
+                    <Link to="/designs"><img draggable="false" id="homebutton" src={button} alt="" /></Link>
+                    </div>
                 </div>
             </Switch>
         </Router>

@@ -1,10 +1,12 @@
 html, body, h1 {
     margin: 0;
     padding: 0;
+    max-width :100%;
 }
 
 .designpage {
     position: relative;
+    max-width :100%;
     margin:0;
     padding:0;
     width: 100vw;
@@ -14,6 +16,7 @@ html, body, h1 {
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+    transition: background-color 1s linear;
 }
 
 #small-logo {
@@ -32,20 +35,20 @@ html, body, h1 {
 }
 
 .designpage #pletter:hover, .designpage #iletter:hover, #small-logo:hover{
-    opacity: 30%;
+    opacity: 0.3;
 }
 
 .designpage #dletter {
     position: absolute;
     transform: translate(50%, 0%);
-    opacity: 100%;
+    opacity: 1;
     display: inline-block;
     right: 40vw;
     width: 11.2vw;
 }
 
 .designpage #pletter {
-    opacity: 50%;
+    opacity: 0.5;
     position: absolute;
     transform: translate(50%, 0%);
     display: inline-block;
@@ -54,7 +57,7 @@ html, body, h1 {
 }
 
 .designpage #iletter {
-    opacity: 50%;
+    opacity: 0.5;
     position: absolute;
     transform: translate(50%, 0%);
     display: inline-block;
@@ -96,7 +99,7 @@ html, body, h1 {
 }
 
 #arrow-left:hover, #arrow-right:hover {
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 #slideshow #arrow-left {
@@ -107,6 +110,14 @@ html, body, h1 {
     height: 35px;
     cursor: pointer;
 }
+
+.switch-wrapper {
+    position: relative;
+  }
+
+  .switch-wrapper > div {
+    position: absolute;
+  }
 
 .designpage #spacer {
     height: 5vh;
@@ -140,6 +151,14 @@ html, body, h1 {
         margin: 0;
     }
 
+    .switch-wrapper {
+        position: relative;
+      }
+
+      .switch-wrapper > div {
+        position: absolute;
+      }
+
     .designpage {
         position: relative;
         margin:0;
@@ -151,6 +170,7 @@ html, body, h1 {
         background-size: cover;
         background-attachment: fixed;
         text-align: center;
+        transition: background-color 1s linear;
     }
 
     .designpage #small-logo {
@@ -173,12 +193,12 @@ html, body, h1 {
         position: absolute;
         transform: translate(50%, 0%);
         right: 50%;
-        opacity: 100%;
+        opacity: 1;
     }
 
     .designpage #pletter {
         display: none;
-        opacity: 50%;
+        opacity: 0.5;
         position: absolute;
         transform: translate(50%, 0%);
         right: 30%;
@@ -186,7 +206,7 @@ html, body, h1 {
 
     .designpage #iletter {
         display: none;
-        opacity: 50%;
+        opacity: 0.5;
         position: absolute;
         transform: translate(50%, 0%);
         right: 10%;
@@ -234,7 +254,7 @@ html, body, h1 {
     }
 
     #arrow-left:hover, #arrow-right:hover {
-        opacity: 50%;
+        opacity: 0.5;
     }
 
     .designpage #spacer {
@@ -254,11 +274,11 @@ html, body, h1 {
     }
 
     #small-logo:hover {
-        opacity: 30%;
+        opacity: 0.3;
     }
 
     .designpage #projectslink:hover, .designpage #infolink:hover {
-        opacity: 30%;
+        opacity: 0.3;
     }
 
     .designpage #designslink {
@@ -268,7 +288,7 @@ html, body, h1 {
         font-size: 4vw;
         padding-left: 5vw;
         cursor: pointer;
-        opacity: 100%;
+        opacity: 1;
     }
 
     .designpage #projectslink {
@@ -277,7 +297,7 @@ html, body, h1 {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 50%;
+        opacity: 0.5;
         cursor: pointer;
     }
 
@@ -287,7 +307,7 @@ html, body, h1 {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 50%;
+        opacity: 0.5;
         cursor: pointer;
     }
 }
@@ -308,7 +328,15 @@ html, body, h1 {
         background-size: cover;
         background-attachment: fixed;
         text-align: center;
+        transition: background-color 1s linear;
     }
+    .switch-wrapper {
+        position: relative;
+      }
+
+      .switch-wrapper > div {
+        position: absolute;
+      }
 
     .designpage #small-logo {
         position: absolute;
@@ -330,12 +358,12 @@ html, body, h1 {
         position: absolute;
         transform: translate(50%, 0%);
         right: 50%;
-        opacity: 100%;
+        opacity: 1;
     }
 
     .designpage #pletter {
         display: none;
-        opacity: 50%;
+        opacity: 0.5;
         position: absolute;
         transform: translate(50%, 0%);
         right: 30%;
@@ -343,7 +371,7 @@ html, body, h1 {
 
     .designpage #iletter {
         display: none;
-        opacity: 50%;
+        opacity: 0.5;
         position: absolute;
         transform: translate(50%, 0%);
         right: 10%;
@@ -391,7 +419,7 @@ html, body, h1 {
     }
 
     #arrow-left:hover, #arrow-right:hover {
-        opacity: 50%;
+        opacity: 0.5;
     }
 
     .designpage #spacer {
@@ -411,11 +439,11 @@ html, body, h1 {
     }
 
     #small-logo:hover {
-        opacity: 30%;
+        opacity: 0.3;
     }
 
     .designpage #projectslink:hover, .designpage #infolink:hover {
-        opacity: 30%;
+        opacity: 0.3;
     }
 
     .designpage #designslink {
@@ -425,7 +453,7 @@ html, body, h1 {
         font-size: 4vw;
         padding-left: 5vw;
         cursor: pointer;
-        opacity: 100%;
+        opacity: 1;
     }
 
     .designpage #projectslink {
@@ -434,7 +462,7 @@ html, body, h1 {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 50%;
+        opacity: 0.5;
         cursor: pointer;
     }
 
@@ -444,7 +472,7 @@ html, body, h1 {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 50%;
+        opacity: 0.5;
         cursor: pointer;
     }
 }

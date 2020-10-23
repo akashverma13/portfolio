@@ -1,10 +1,12 @@
 html, body, p{
     margin: 0;
     padding: 0;
+    max-width :100%;
 }
 
 .projectspage {
     position: relative;
+    max-width :100%;
     margin:0;
     padding:0;
     width: 100vw;
@@ -31,7 +33,7 @@ html, body, p{
 }
 
 .projectspage #dletter:hover, .projectspage #iletter:hover, #small-logo:hover{
-    opacity: 30%;
+    opacity: 0.3;
 }
 
 .projectspage #dletter {
@@ -40,7 +42,7 @@ html, body, p{
     display: inline-block;
     right: 40vw;
     width: 11.2vw;
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 .projectspage #pletter {
@@ -51,8 +53,12 @@ html, body, p{
     width: 10vw;
 }
 
+#projectname:hover {
+    opacity: 0.5;
+}
+
 .projectspage #iletter {
-    opacity: 50%;
+    opacity: 0.5;
     position: absolute;
     transform: translate(50%, 0%);
     display: inline-block;
@@ -99,19 +105,19 @@ u {
     margin-top: 5vh;
     margin-right: 5vh;
     cursor: pointer;
-    opacity: 100%;
+    opacity: 1;
 }
 
 #circle2 {
     margin-top: 5vh;
-    opacity: 50%;
+    opacity: 0.5;
     cursor: pointer;
 }
 
 #circle3 {
     margin-top: 5vh;
     margin-left: 5vh;
-    opacity: 50%;
+    opacity: 0.5;
     cursor: pointer;
 }
 
@@ -120,12 +126,12 @@ u {
     margin-right: 5vh;
     margin-left: 5vh;
     cursor: pointer;
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 #circle5 {
     margin-top: 5vh;
-    opacity: 50%;
+    opacity: 0.5;
     cursor: pointer;
 }
 
@@ -149,6 +155,7 @@ u {
         margin: 0;
         padding: 0;
     }
+
 
     .projectspage {
         position: relative;
@@ -182,12 +189,12 @@ u {
         position: absolute;
         transform: translate(50%, 0%);
         right: 50%;
-        opacity: 100%;
+        opacity: 1;
     }
 
     .projectspage #pletter {
         display: none;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         transform: translate(50%, 0%);
         right: 30%;
@@ -195,7 +202,7 @@ u {
 
     .projectspage #iletter {
         display: none;
-        opacity: 50%;
+        opacity: 0.5;
         position: absolute;
         transform: translate(50%, 0%);
         right: 10%;
@@ -211,6 +218,10 @@ u {
         color: #DEDFF5;
         font-size: 5vw;
         font-weight: bold;
+    }
+
+    #projectlink:hover {
+        opacity: 0.5;
     }
 
     #projectdescr {
@@ -231,13 +242,13 @@ u {
 
     #circle2 {
         margin-top: 5vh;
-        opacity: 50%;
+        opacity: 0.5;
     }
 
     #circle3 {
         margin-top: 5vh;
         margin-left: 5vh;
-        opacity: 50%;
+        opacity: 0.5;
     }
 
     .projectspage #links {
@@ -248,7 +259,7 @@ u {
     }
 
     .projectspage #infolink:hover, .projectspage #designslink:hover {
-        opacity: 30%;
+        opacity: 0.3;
     }
 
     .projectspage #designslink {
@@ -257,7 +268,7 @@ u {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 50%;
+        opacity: 0.5;
     }
 
     .projectspage #projectslink {
@@ -266,7 +277,7 @@ u {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 100%;
+        opacity: 1;
     }
 
     .projectspage #infolink {
@@ -275,7 +286,7 @@ u {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 50%;
+        opacity: 0.5;
     }
 }
 
@@ -317,20 +328,24 @@ u {
         position: absolute;
         transform: translate(50%, 0%);
         right: 50%;
-        opacity: 100%;
+        opacity: 1;
     }
 
     .projectspage #pletter {
         display: none;
-        opacity: 100%;
+        opacity: 1;
         position: absolute;
         transform: translate(50%, 0%);
         right: 30%;
     }
 
+    #projectlink:hover {
+        opacity: 0.5;
+    }
+
     .projectspage #iletter {
         display: none;
-        opacity: 50%;
+        opacity: 0.5;
         position: absolute;
         transform: translate(50%, 0%);
         right: 10%;
@@ -366,13 +381,13 @@ u {
 
     #circle2 {
         margin-top: 5vh;
-        opacity: 50%;
+        opacity: 0.5;
     }
 
     #circle3 {
         margin-top: 5vh;
         margin-left: 5vh;
-        opacity: 50%;
+        opacity: 0.5;
     }
 
     .projectspage #links {
@@ -383,7 +398,7 @@ u {
     }
 
     .projectspage #infolink:hover, .projectspage #designslink:hover {
-        opacity: 30%;
+        opacity: 0.3;
     }
 
     .projectspage #designslink {
@@ -392,7 +407,7 @@ u {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 50%;
+        opacity: 0.5;
     }
 
     .projectspage #projectslink {
@@ -401,7 +416,7 @@ u {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 100%;
+        opacity: 1;
     }
 
     .projectspage #infolink {
@@ -410,6 +425,6 @@ u {
         font-weight: bold;
         font-size: 4vw;
         padding-left: 5vw;
-        opacity: 50%;
+        opacity: 0.5;
     }
 }
