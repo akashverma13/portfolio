@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "63f8beb0f5376f95fab39cd19684c06c",
+    "revision": "79f41f9341ad38fd0873e8025dd536fd",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "97a382296d47b33a8573",
-    "url": "/portfolio/static/css/main.fa89f527.chunk.css"
+    "revision": "4af464c179259835c20a",
+    "url": "/portfolio/static/css/main.b85a55ea.chunk.css"
   },
   {
-    "revision": "0a3c00101ecc39bbaecb",
-    "url": "/portfolio/static/js/2.4c8d3f85.chunk.js"
+    "revision": "afdc073bf0340e1ae78e",
+    "url": "/portfolio/static/js/2.1b3ab2ca.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.4c8d3f85.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.1b3ab2ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "97a382296d47b33a8573",
-    "url": "/portfolio/static/js/main.b99320ab.chunk.js"
+    "revision": "4af464c179259835c20a",
+    "url": "/portfolio/static/js/main.b756053d.chunk.js"
   },
   {
     "revision": "c53d9443373a56138b0b",
     "url": "/portfolio/static/js/runtime-main.aad75174.js"
+  },
+  {
+    "revision": "0b001be8eecd5ea4b970493a610e1cc3",
+    "url": "/portfolio/static/media/1.0b001be8.svg"
+  },
+  {
+    "revision": "e540da0be72efc11d874d25b7b6d2462",
+    "url": "/portfolio/static/media/2.e540da0b.svg"
+  },
+  {
+    "revision": "58fb2a1b6d6e7f093ed18f08c0a110a1",
+    "url": "/portfolio/static/media/3.58fb2a1b.svg"
   },
   {
     "revision": "9954e2920970cd02b97467d2a060349b",
@@ -72,16 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/pletter.b06c23cb.svg"
   },
   {
-    "revision": "0b001be8eecd5ea4b970493a610e1cc3",
-    "url": "/portfolio/static/media/prodbyaky.0b001be8.svg"
-  },
-  {
     "revision": "349195fb8b7c5a6e5be35a29fa1835c7",
     "url": "/portfolio/static/media/projectsvector.349195fb.svg"
-  },
-  {
-    "revision": "e540da0be72efc11d874d25b7b6d2462",
-    "url": "/portfolio/static/media/salehoo.e540da0b.svg"
   },
   {
     "revision": "58fb2a1b6d6e7f093ed18f08c0a110a1",
